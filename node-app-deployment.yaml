@@ -18,7 +18,7 @@ spec:
         - name: my-kube-container
           image: wilsonbolledula/my-kube:latest  # Your Docker image
           ports:
-            - containerPort: 3007  # The port where the Node.js app is listening
+            - containerPort: 3000  # The port where the Node.js app is listening
           resources:
             limits:
               memory: "512Mi"
